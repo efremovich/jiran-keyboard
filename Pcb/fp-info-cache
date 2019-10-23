@@ -1,4 +1,4 @@
-16975089447328636
+16978233068513061
 1symblos
 3_Pin_Jumper
 
@@ -71,6 +71,13 @@ ENGNAME
 0
 1symblos
 japanGHOST
+
+
+0
+0
+0
+1symblos
+Jiran_Silkscreen
 
 
 0
@@ -75396,6 +75403,13 @@ ISP
 0
 6
 6
+Used_Footprints
+Jiran_Silkscreen
+
+
+0
+0
+0
 Used_Footprints
 LED
 
