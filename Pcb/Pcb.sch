@@ -34,29 +34,25 @@ col1
 $Comp
 L Device:R_Small R29
 U 1 1 5DAAA6F2
-P 1075 1725
-F 0 "R29" V 1005 1725 50  0000 C CNN
-F 1 "4.7" V 1075 1725 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 1075 1725 50  0001 C CNN
-F 3 "~" H 1075 1725 50  0001 C CNN
-	1    1075 1725
-	0    1    1    0   
+P 1050 1625
+F 0 "R29" V 980 1625 50  0000 C CNN
+F 1 "4.7" V 1050 1625 50  0000 C CNN
+F 2 "Used_Footprints:Resistor_SMD_TH" H 1050 1625 50  0001 C CNN
+F 3 "~" H 1050 1625 50  0001 C CNN
+	1    1050 1625
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R30
 U 1 1 5DAAB292
-P 1075 1825
-F 0 "R30" V 1145 1825 50  0000 C CNN
-F 1 "4.7k" V 1075 1825 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 1075 1825 50  0001 C CNN
-F 3 "~" H 1075 1825 50  0001 C CNN
-	1    1075 1825
-	0    1    1    0   
+P 1050 1925
+F 0 "R30" V 970 1925 50  0000 C CNN
+F 1 "4.7k" V 1045 1925 50  0000 C CNN
+F 2 "Used_Footprints:Resistor_SMD_TH" H 1050 1925 50  0001 C CNN
+F 3 "~" H 1050 1925 50  0001 C CNN
+	1    1050 1925
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1175 1725 1405 1725
-Wire Wire Line
-	1175 1825 1405 1825
 Text GLabel 975  1725 0    50   Input ~ 0
 SDA
 Text GLabel 975  1825 0    50   Input ~ 0
@@ -1926,5 +1922,37 @@ F 2 "" H 2015 3205 50  0001 C CNN
 F 3 "" H 2015 3205 50  0001 C CNN
 	1    2015 3205
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	975  1725 1050 1725
+Wire Wire Line
+	975  1825 1050 1825
+Connection ~ 1050 1825
+Wire Wire Line
+	1050 1825 1405 1825
+Connection ~ 1050 1725
+Wire Wire Line
+	1050 1725 1405 1725
+$Comp
+L power:VCC #PWR?
+U 1 1 5DBF6680
+P 1050 1525
+F 0 "#PWR?" H 1050 1375 50  0001 C CNN
+F 1 "VCC" H 1067 1698 50  0000 C CNN
+F 2 "" H 1050 1525 50  0001 C CNN
+F 3 "" H 1050 1525 50  0001 C CNN
+	1    1050 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DBF75FF
+P 1050 2025
+F 0 "#PWR?" H 1050 1875 50  0001 C CNN
+F 1 "VCC" H 1068 2198 50  0000 C CNN
+F 2 "" H 1050 2025 50  0001 C CNN
+F 3 "" H 1050 2025 50  0001 C CNN
+	1    1050 2025
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
