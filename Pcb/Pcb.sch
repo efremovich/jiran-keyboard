@@ -75,12 +75,6 @@ Text Label 2805 1825 0    50   ~ 0
 rowD
 Text Label 2805 1925 0    50   ~ 0
 rowE
-Text Label 2805 2125 0    50   ~ 0
-SCK
-Text Label 2805 2225 0    50   ~ 0
-MISO
-Text Label 2805 2325 0    50   ~ 0
-MOSI
 Text Label 2805 2425 0    50   ~ 0
 LED
 $Comp
@@ -1810,54 +1804,16 @@ F 3 "" H 5005 3615 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:MJ-4PP-9 J2
+L kbd:MJ-4PP-9 J1
 U 1 1 5DBFACF7
 P 1080 3355
-F 0 "J2" H 1080 3575 50  0000 C CNN
+F 0 "J1" H 1080 3575 50  0000 C CNN
 F 1 "TRRS" H 1080 3495 50  0000 C CNN
 F 2 "Used_Footprints:TRRS_2Side" H 1355 3530 50  0001 C CNN
 F 3 "~" H 1355 3530 50  0001 C CNN
 	1    1080 3355
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5DBFC00F
-P 1355 3280
-F 0 "#PWR09" H 1355 3030 50  0001 C CNN
-F 1 "GND" H 1360 3107 50  0000 C CNN
-F 2 "" H 1355 3280 50  0001 C CNN
-F 3 "" H 1355 3280 50  0001 C CNN
-	1    1355 3280
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR010
-U 1 1 5DBFD01C
-P 1355 3430
-F 0 "#PWR010" H 1355 3280 50  0001 C CNN
-F 1 "VCC" H 1373 3603 50  0000 C CNN
-F 2 "" H 1355 3430 50  0001 C CNN
-F 3 "" H 1355 3430 50  0001 C CNN
-	1    1355 3430
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1280 3430 1355 3430
-Wire Wire Line
-	1280 3280 1355 3280
-Text GLabel 1410 3305 2    50   Input ~ 0
-SDA
-Text GLabel 1410 3405 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	1280 3380 1410 3380
-Wire Wire Line
-	1410 3380 1410 3405
-Wire Wire Line
-	1280 3330 1410 3330
-Wire Wire Line
-	1410 3330 1410 3305
 Text GLabel 4605 3615 0    50   Input ~ 0
 RST
 Text GLabel 2805 1525 2    50   Input ~ 0
@@ -1935,4 +1891,108 @@ Text Label 9800 4080 1    50   ~ 0
 SCROLL
 Text Label 10150 4080 1    50   ~ 0
 NUM
+Text Label 2805 2125 0    50   ~ 0
+CAPS
+Text Label 2805 2225 0    50   ~ 0
+SCROLL
+Text Label 2805 2325 0    50   ~ 0
+NUM
+$Comp
+L power:GND #PWR?
+U 1 1 5DC1A713
+P 1000 3550
+F 0 "#PWR?" H 1000 3300 50  0001 C CNN
+F 1 "GND" V 995 3440 50  0000 R CNN
+F 2 "" H 1000 3550 50  0001 C CNN
+F 3 "" H 1000 3550 50  0001 C CNN
+	1    1000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DC1BBEB
+P 1000 3650
+F 0 "#PWR?" H 1000 3500 50  0001 C CNN
+F 1 "VCC" V 1000 3765 50  0000 L CNN
+F 2 "" H 1000 3650 50  0001 C CNN
+F 3 "" H 1000 3650 50  0001 C CNN
+	1    1000 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1280 3430 1280 3550
+Wire Wire Line
+	1280 3550 1000 3550
+Wire Wire Line
+	1280 3380 1370 3380
+Wire Wire Line
+	1370 3380 1370 3650
+Wire Wire Line
+	1370 3650 1000 3650
+$Comp
+L Jumper:Jumper_2_Bridged JP4
+U 1 1 5DC2DEC8
+P 1700 3450
+F 0 "JP4" H 1695 3420 50  0000 C CNN
+F 1 "Jumper" H 1700 3525 50  0000 C CNN
+F 2 "" H 1700 3450 50  0001 C CNN
+F 3 "~" H 1700 3450 50  0001 C CNN
+	1    1700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP5
+U 1 1 5DC322E4
+P 1700 3600
+F 0 "JP5" H 1695 3565 50  0000 C CNN
+F 1 "Jumper" H 1700 3505 50  0000 C CNN
+F 2 "" H 1700 3600 50  0001 C CNN
+F 3 "~" H 1700 3600 50  0001 C CNN
+	1    1700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP2
+U 1 1 5DC382C2
+P 1700 3000
+F 0 "JP2" H 1695 2970 50  0000 C CNN
+F 1 "Jumper" H 1700 3075 50  0000 C CNN
+F 2 "" H 1700 3000 50  0001 C CNN
+F 3 "~" H 1700 3000 50  0001 C CNN
+	1    1700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP3
+U 1 1 5DC382C8
+P 1700 3150
+F 0 "JP3" H 1695 3115 50  0000 C CNN
+F 1 "Jumper" H 1700 3055 50  0000 C CNN
+F 2 "" H 1700 3150 50  0001 C CNN
+F 3 "~" H 1700 3150 50  0001 C CNN
+	1    1700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1280 3330 1500 3330
+Wire Wire Line
+	1500 3330 1500 3450
+Connection ~ 1500 3450
+Wire Wire Line
+	1500 3450 1500 3600
+Wire Wire Line
+	1280 3280 1500 3280
+Wire Wire Line
+	1500 3280 1500 3150
+Connection ~ 1500 3150
+Wire Wire Line
+	1500 3150 1500 3000
+Text GLabel 1900 3000 2    50   Input ~ 0
+SDA
+Text GLabel 1900 3150 2    50   Input ~ 0
+SCL
+Text GLabel 1900 3450 2    50   Input ~ 0
+SDA
+Text GLabel 1900 3600 2    50   Input ~ 0
+SCL
 $EndSCHEMATC
