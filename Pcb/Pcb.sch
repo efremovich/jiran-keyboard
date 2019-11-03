@@ -1878,51 +1878,10 @@ Wire Wire Line
 	1280 3330 1410 3330
 Wire Wire Line
 	1410 3330 1410 3305
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 5DC27926
-P 2215 3305
-F 0 "J1" H 2295 3297 50  0000 L CNN
-F 1 "ISP" H 2295 3206 50  0000 L CNN
-F 2 "Used_Footprints:ISP" H 2215 3305 50  0001 C CNN
-F 3 "~" H 2215 3305 50  0001 C CNN
-	1    2215 3305
-	1    0    0    -1  
-$EndComp
-Text Label 2015 3105 2    50   ~ 0
-MISO
-Text Label 2015 3305 2    50   ~ 0
-SCK
-Text Label 2015 3405 2    50   ~ 0
-MOSI
-Text GLabel 2015 3505 0    50   Input ~ 0
-RST
 Text GLabel 4605 3615 0    50   Input ~ 0
 RST
 Text GLabel 2805 1525 2    50   Input ~ 0
 RST
-$Comp
-L power:GND #PWR011
-U 1 1 5DC2E762
-P 2015 3605
-F 0 "#PWR011" H 2015 3355 50  0001 C CNN
-F 1 "GND" H 1905 3605 50  0000 C CNN
-F 2 "" H 2015 3605 50  0001 C CNN
-F 3 "" H 2015 3605 50  0001 C CNN
-	1    2015 3605
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR08
-U 1 1 5DC2FF16
-P 2015 3205
-F 0 "#PWR08" H 2015 3055 50  0001 C CNN
-F 1 "VCC" V 2010 3315 50  0000 L CNN
-F 2 "" H 2015 3205 50  0001 C CNN
-F 3 "" H 2015 3205 50  0001 C CNN
-	1    2015 3205
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	975  1725 1050 1725
 Wire Wire Line
