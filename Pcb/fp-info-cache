@@ -1,4 +1,4 @@
-17066142607953579
+17067718954908450
 1kbd
 battery_pad
 
@@ -75857,6 +75857,13 @@ TRRS_2Side
 
 0
 8
+4
+Used_Footprints
+TRSS_DUAL
+
+
+0
+6
 4
 Valve
 Valve_ECC-83-1
