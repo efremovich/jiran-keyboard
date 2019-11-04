@@ -1,3 +1,0 @@
-Ladniy
-DESKTOP-DA1JOL5 
-4 но€бр€ 2019 г.  22:19:58
