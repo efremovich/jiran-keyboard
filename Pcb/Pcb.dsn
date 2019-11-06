@@ -194,13 +194,19 @@
             161430 -48639.9  153840 -48640))
     (via "Via[0-1]_800:400_um")
     (rule
-      (width 250)
+      (width 170)
       (clearance 200.1)
       (clearance 200.1 (type default_smd))
       (clearance 50 (type smd_smd))
     )
   )
   (placement
+    (component 1kbd:jumper
+      (place JP5 212770 -108840 back 180 (PN Jumper))
+      (place JP4 212770 -108840 front 180 (PN Jumper))
+      (place JP3 212770 -104640 front 0 (PN Jumper))
+      (place JP2 212770 -104640 back 0 (PN Jumper))
+    )
     (component Used_Footprints:LED
       (place D29 105710 -48820 front 180 (PN LED_Small))
       (place D30 124760 -46340 front 180 (PN LED_Small))
@@ -250,12 +256,6 @@
     (component Used_Footprints:CoverHole
       (place H8 227010 -112834 front 0 (PN CoverHole))
       (place H9 213010 -112834 front 0 (PN CoverHole))
-    )
-    (component 1kbd:jumper
-      (place JP5 212770 -108840 back 180 (PN Jumper))
-      (place JP4 212770 -108840 front 180 (PN Jumper))
-      (place JP3 212770 -104640 front 0 (PN Jumper))
-      (place JP2 212770 -104640 back 0 (PN Jumper))
     )
     (component Used_Footprints:ProMicro_TwoSide
       (place U1 220540 -78530 front 0 (PN ProMicro))
@@ -367,6 +367,10 @@
     )
   )
   (library
+    (image 1kbd:jumper
+      (pin RoundRect[T]Pad_635x1143_127.483_um (rotate 90) 2 0 500)
+      (pin RoundRect[T]Pad_635x1143_127.483_um (rotate 90) 1 0 -500)
+    )
     (image Used_Footprints:LED
       (pin Round[A]Pad_1800_um 2 1270 0)
       (pin RoundRect[A]Pad_1800x1800_361.37_um 1 -1270 0)
@@ -392,10 +396,6 @@
     )
     (image Used_Footprints:CoverHole
       (pin Round[A]Pad_4000_um 1 0 0)
-    )
-    (image 1kbd:jumper
-      (pin Rect[T]Pad_635x1143_um (rotate 90) 2 0 500)
-      (pin Rect[T]Pad_635x1143_um (rotate 90) 1 0 -500)
     )
     (image Used_Footprints:ProMicro_TwoSide
       (outline (path signal 120  7290.05 13210  7209.65 12831.7  6982.33 12518.8  6647.4 12325.5
@@ -675,6 +675,20 @@
             493.119 472.825))
       (attach off)
     )
+    (padstack RoundRect[T]Pad_635x1143_127.483_um
+      (shape (polygon F.Cu 0  212.637 570.046  234.102 564.295  254.241 554.904  272.444 542.158
+            288.158 526.444  300.904 508.242  310.295 488.102  316.046 466.637
+            317.983 444.5  317.983 -444.5  316.046 -466.637  310.295 -488.102
+            300.904 -508.241  288.158 -526.444  272.444 -542.158  254.242 -554.904
+            234.102 -564.295  212.637 -570.046  190.5 -571.983  -190.5 -571.983
+            -212.637 -570.046  -234.102 -564.295  -254.241 -554.904  -272.444 -542.158
+            -288.158 -526.444  -300.904 -508.242  -310.295 -488.102  -316.046 -466.637
+            -317.983 -444.5  -317.983 444.5  -316.046 466.637  -310.295 488.102
+            -300.904 508.241  -288.158 526.444  -272.444 542.158  -254.242 554.904
+            -234.102 564.295  -212.637 570.046  -190.5 571.983  190.5 571.983
+            212.637 570.046))
+      (attach off)
+    )
     (padstack RoundRect[T]Pad_900x800_160.609_um
       (shape (polygon F.Cu 0  317.889 398.169  344.932 390.923  370.304 379.091  393.237 363.034
             413.034 343.237  429.091 320.305  440.923 294.932  448.169 267.889
@@ -749,10 +763,6 @@
             -901.37 540  -895.88 602.751  -879.577 663.596  -852.956 720.685
             -816.825 772.284  -772.284 816.825  -720.685 852.956  -663.596 879.577
             -602.751 895.88  -540 901.37  540 901.37  602.751 895.88))
-      (attach off)
-    )
-    (padstack Rect[T]Pad_635x1143_um
-      (shape (rect F.Cu -317.5 -571.5 317.5 571.5))
       (attach off)
     )
     (padstack "Via[0-1]_800:400_um"
@@ -1028,10 +1038,10 @@
       (pins D56-2 U1-14 U1-14@1)
     )
     (net "Net-(J1-PadA)"
-      (pins J1-A JP3-1 JP2-1)
+      (pins JP3-1 JP2-1 J1-A)
     )
     (net "Net-(J1-PadD)"
-      (pins J1-D JP5-1 JP4-1)
+      (pins JP5-1 JP4-1 J1-D)
     )
     (class kicad_default "" /CAPS /LED /LEDOut /NUM /SCROLL /col0 /col1 /col2
       /col3 /col4 /col5 /rowA /rowB /rowC /rowD /rowE GND "Net-(D1-Pad2)"
@@ -1053,7 +1063,7 @@
         (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 250)
+        (width 170)
         (clearance 200.1)
       )
     )
