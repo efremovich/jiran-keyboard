@@ -1,4 +1,4 @@
-17072060069694932
+17073635213094481
 1kbd
 battery_pad
 
@@ -75810,6 +75810,13 @@ Diode_SMD_TH
 6
 2
 Used_Footprints
+HoleBreak
+
+
+0
+0
+0
+Used_Footprints
 ISP
 
 
@@ -75870,7 +75877,7 @@ SOT-23
 
 
 0
-9
+6
 3
 Used_Footprints
 TRRS_2Side
