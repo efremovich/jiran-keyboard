@@ -5,7 +5,7 @@
     (drawings 136)
     (tracks 0)
     (zones 0)
-    (modules 143)
+    (modules 150)
     (nets 83)
   )
 
@@ -263,6 +263,94 @@
     (add_net SCL)
     (add_net SDA)
     (add_net VCC)
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74339)
+    (at 190.33 56.5)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74328)
+    (at 189.73 55.76)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74317)
+    (at 189.62 54.79)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC742E2)
+    (at 191.24 56.87)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC7429B)
+    (at 191.58 53.2)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC7428A)
+    (at 192.53 53.55)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74279)
+    (at 193.14 54.34)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74268)
+    (at 193.26 55.33)
+    (fp_text reference REF** (at 0.05 -5.16) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
   )
 
   (module Used_Footprints:SOT-23 (layer F.Cu) (tedit 5DC6E0F0) (tstamp 5DABC88A)
@@ -1992,18 +2080,6 @@
     (at 153.28 70.5512)
     (path /5DC0F92C)
     (fp_text reference H3 (at 0.5 -2.77) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:MountHole (layer F.Cu) (tedit 5DBFE3CD) (tstamp 5DC0477E)
-    (at 191.435 55.0395)
-    (path /5DC1BC70)
-    (fp_text reference H5 (at 0.5 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
