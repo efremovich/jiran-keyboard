@@ -1,4 +1,4 @@
-17073635213094481
+17073635671763878
 1kbd
 battery_pad
 
@@ -652,6 +652,13 @@ SignsboldFOOT
 0
 1symblos
 SignsFOOT
+
+
+0
+0
+0
+1symblos
+Silkscreen
 
 
 0
@@ -75823,13 +75830,6 @@ ISP
 0
 6
 6
-Used_Footprints
-Jiran_Silkscreen
-
-
-0
-0
-0
 Used_Footprints
 LED
 
