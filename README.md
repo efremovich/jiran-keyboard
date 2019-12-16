@@ -1,6 +1,8 @@
 # Jiran Keyboard
 Jiran keyboard is a ergo spilt keyboard, offering easy switch to 40% keyboards with ability to break off num row.
 
+![Render of PCB](https://raw.githubusercontent.com/Ladniy/jiran-keyboard/master/Pcb/Design/Top.png?token=AHWNI4EWGEGPPAWOVHGZ72C566IP4)
+
 Based on original Jian keyboard.
 ## Layout
 You can meet with layout here: [Eng](http://www.keyboard-layout-editor.com/#/gists/0547cd126f61f8c3f76b0a9952901da4) [Ru](http://www.keyboard-layout-editor.com/#/gists/0e1e37be1416db32917622ca0f6ad490)
