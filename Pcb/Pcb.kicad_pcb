@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 136)
+    (drawings 64)
     (tracks 0)
     (zones 0)
-    (modules 164)
+    (modules 130)
     (nets 83)
   )
 
@@ -265,180 +265,44 @@
     (add_net VCC)
   )
 
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA830)
-    (at 151.71 52.61)
-    (fp_text reference HB27 (at 0.05 -5.16) (layer F.Fab) hide
+  (module 1symblos:cherry (layer F.Cu) (tedit 5DBDDC09) (tstamp 5DBF7738)
+    (at 181.91 63.43)
+    (path /5DABCF8B)
+    (fp_text reference SW11 (at 0 3.175) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
+    (fp_text value SW_Push (at 0.1 9.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA81F)
-    (at 151.37 51.73)
-    (fp_text reference HB29 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA80E)
-    (at 151.48 50.77)
-    (fp_text reference HB31 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA7FD)
-    (at 152.01 49.96)
-    (fp_text reference HB33 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA7EC)
-    (at 154.65 52.97)
-    (fp_text reference HB24 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA7DB)
-    (at 155.21 52.19)
-    (fp_text reference HB22 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA7CA)
-    (at 155.35 51.28)
-    (fp_text reference HB20 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFAA79F)
-    (at 155.03 50.4)
-    (fp_text reference HB18 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA83AF)
-    (at 191.07 53.03)
-    (fp_text reference HB1 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA839E)
-    (at 192.13 53.19)
-    (fp_text reference HB3 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA838D)
-    (at 193 53.81)
-    (fp_text reference HB5 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA837C)
-    (at 193.41 54.78)
-    (fp_text reference HB7 (at 0.05 -5.16) (layer B.CrtYd) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.04 -6.14) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA836B)
-    (at 191.77 57.04)
-    (fp_text reference HB9 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA835A)
-    (at 190.69 56.92)
-    (fp_text reference HB11 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA8349)
-    (at 189.84 56.29)
-    (fp_text reference HB13 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.08 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DFA8338)
-    (at 189.43 55.32)
-    (fp_text reference HB15 (at 0.05 -5.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+    (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.2))
+    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.2))
+    (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.2))
+    (fp_line (start 9.525 -9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.2))
+    (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.Fab) (width 0.2))
+    (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.Fab) (width 0.2))
+    (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.Fab) (width 0.2))
+    (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.Fab) (width 0.2))
+    (pad "" np_thru_hole circle (at 5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 2.54 4.35 180) (size 2.4 3.4) (drill oval 1.5 2.5) (layers *.Cu *.Mask)
+      (net 13 "Net-(D11-Pad2)"))
+    (pad 2 thru_hole oval (at -2.54 4.35 180) (size 2.4 3.4) (drill oval 1.5 2.5) (layers *.Cu *.Mask)
+      (net 74 /col4))
+    (pad 2 thru_hole oval (at -3.81 2.44 130) (size 2.8 2) (drill 1.5) (layers *.Cu *.Mask)
+      (net 74 /col4))
+    (pad 1 thru_hole oval (at 3.81 2.44 230) (size 2.8 2) (drill 1.5) (layers *.Cu *.Mask)
+      (net 13 "Net-(D11-Pad2)"))
+    (pad 2 thru_hole oval (at 0 5.55 270) (size 1 2) (drill oval 0.81) (layers *.Cu *.Mask)
+      (net 74 /col4))
+    (pad 1 thru_hole oval (at 5.1 3.8 230) (size 2.2 1.25) (drill 1.2) (layers *.Cu *.Mask)
+      (net 13 "Net-(D11-Pad2)"))
+    (pad "" np_thru_hole circle (at -5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0 270) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at -5.1 3.8 130) (size 2.2 1.25) (drill 1.2) (layers *.Cu *.Mask)
+      (net 13 "Net-(D11-Pad2)"))
   )
 
   (module Used_Footprints:MountHole (layer F.Cu) (tedit 5DFA2876) (tstamp 5DC0476A)
@@ -961,94 +825,6 @@
     (pad "" np_thru_hole circle (at 5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74339)
-    (at 190.24 56.66)
-    (fp_text reference HB12 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74328)
-    (at 189.56 55.82)
-    (fp_text reference HB14 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74317)
-    (at 189.42 54.79)
-    (fp_text reference HB16 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC742E2)
-    (at 191.22 57.04)
-    (fp_text reference HB10 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC7429B)
-    (at 191.59 53.06)
-    (fp_text reference HB2 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC7428A)
-    (at 192.62 53.47)
-    (fp_text reference HB4 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74279)
-    (at 193.26 54.27)
-    (fp_text reference HB6 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC74268)
-    (at 193.39 55.31)
-    (fp_text reference HB8 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
   (module Used_Footprints:SOT-23 (layer F.Cu) (tedit 5DC6E0F0) (tstamp 5DABC88A)
     (at 212.38 96.48 90)
     (path /5DB74305)
@@ -1082,116 +858,6 @@
       (net 67 /LEDOut))
     (pad 2 smd roundrect (at -0.94 -0.87 90) (size 0.9 0.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
       (net 64 GND))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC71C8B)
-    (at 152.38 49.69)
-    (fp_text reference HB34 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC71C7A)
-    (at 151.72 50.31)
-    (fp_text reference HB32 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC71C69)
-    (at 151.35 51.26)
-    (fp_text reference HB30 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC71C58)
-    (at 151.48 52.18)
-    (fp_text reference HB28 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC71C47)
-    (at 152.01 52.96)
-    (fp_text reference HB26 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC6EEEE)
-    (at 154.27 53.25)
-    (fp_text reference HB25 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC6EEDC)
-    (at 154.96 52.61)
-    (fp_text reference HB23 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC6EE7E)
-    (at 155.24 50.82)
-    (fp_text reference HB19 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC69725) (tstamp 5DC6EE6D)
-    (at 155.33 51.73)
-    (fp_text reference HB21 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
-  )
-
-  (module Used_Footprints:HoleBreak (layer F.Cu) (tedit 5DC697FE) (tstamp 5DC6EE54)
-    (at 155.27 50.2)
-    (fp_text reference HB17 (at 0.05 -5.16) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HoleBreak (at 0.05 -6.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at -0.5 -0.13) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
   )
 
   (module 1kbd:jumper (layer B.Cu) (tedit 5DC1451A) (tstamp 5DBF50E8)
@@ -3176,46 +2842,6 @@
     (pad "" np_thru_hole circle (at 5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module 1symblos:cherry (layer F.Cu) (tedit 5DBDDC09) (tstamp 5DBF7738)
-    (at 181.91 63.43)
-    (path /5DABCF8B)
-    (fp_text reference SW11 (at 0 3.175) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SW_Push (at 0.1 9.3) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 9.525 -9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.Fab) (width 0.2))
-    (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.Fab) (width 0.2))
-    (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.Fab) (width 0.2))
-    (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.Fab) (width 0.2))
-    (pad "" np_thru_hole circle (at 5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-    (pad 1 thru_hole oval (at 2.54 4.35 180) (size 2.4 3.4) (drill oval 1.5 2.5) (layers *.Cu *.Mask)
-      (net 13 "Net-(D11-Pad2)"))
-    (pad 2 thru_hole oval (at -2.54 4.35 180) (size 2.4 3.4) (drill oval 1.5 2.5) (layers *.Cu *.Mask)
-      (net 74 /col4))
-    (pad 2 thru_hole oval (at -3.81 2.44 130) (size 2.8 2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 74 /col4))
-    (pad 1 thru_hole oval (at 3.81 2.44 230) (size 2.8 2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 13 "Net-(D11-Pad2)"))
-    (pad 2 thru_hole oval (at 0 5.55 270) (size 1 2) (drill oval 0.81) (layers *.Cu *.Mask)
-      (net 74 /col4))
-    (pad 1 thru_hole oval (at 5.1 3.8 230) (size 2.2 1.25) (drill 1.2) (layers *.Cu *.Mask)
-      (net 13 "Net-(D11-Pad2)"))
-    (pad "" np_thru_hole circle (at -5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 0 0 270) (size 4 4) (drill 4) (layers *.Cu *.Mask))
-    (pad 1 thru_hole oval (at -5.1 3.8 130) (size 2.2 1.25) (drill 1.2) (layers *.Cu *.Mask)
-      (net 13 "Net-(D11-Pad2)"))
-  )
-
   (module 1symblos:cherry (layer F.Cu) (tedit 5DBDDC09) (tstamp 5DBF7751)
     (at 200.96 65.71)
     (path /5DABCF91)
@@ -3917,80 +3543,8 @@
       (net 63 RST))
   )
 
-  (gr_arc (start 209.46 57.69) (end 210.46 57.69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DBED462))
   (gr_arc (start 211.46 58.1665) (end 210.46 58.1665) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DBED462))
   (gr_arc (start 209.51 133.36) (end 210.51 133.36) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DBED462))
-  (gr_line (start 210.46 57.69) (end 210.46 58.1665) (layer Edge.Cuts) (width 0.05) (tstamp 5DBED43D))
-  (gr_line (start 202.38 56.690099) (end 209.46 56.69) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A62))
-  (gr_line (start 202.38 55.689901) (end 209.46 55.689901) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A61))
-  (gr_line (start 164.290099 49.640099) (end 170.88 49.64) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A38))
-  (gr_line (start 164.290099 48.639901) (end 171.88 48.64) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A37))
-  (gr_line (start 145.240099 54.390099) (end 152.84 54.39) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A32))
-  (gr_line (start 145.240099 53.389901) (end 151.84 53.39) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A31))
-  (gr_line (start 107.140099 63.920099) (end 114.73 63.920099) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A2A))
-  (gr_line (start 107.140099 62.919901) (end 113.73 62.919901) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD0A29))
-  (gr_arc (start 164.290099 49.14) (end 163.79 49.14) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 164.290099 49.14) (end 164.290099 48.639901) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 161.43 49.139901) (end 161.43 49.64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 161.429901 49.14) (end 161.93 49.14) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 145.240099 53.89) (end 144.74 53.89) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 145.240099 53.89) (end 145.240099 53.389901) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 142.38 53.889901) (end 142.38 54.39) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 142.379901 53.89) (end 142.88 53.89) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 202.38 56.19) (end 201.879901 56.19) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 202.38 56.19) (end 202.38 55.689901) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 199.53 56.189901) (end 199.53 56.69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 199.529901 56.19) (end 200.03 56.19) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 107.140099 63.42) (end 106.64 63.42) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 107.140099 63.42) (end 107.140099 62.919901) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 104.279901 63.42) (end 104.78 63.42) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD05CC))
-  (gr_arc (start 104.279901 63.42) (end 104.279901 63.920099) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 96.16 61.92) (end 96.16 45.395) (layer Edge.Cuts) (width 0.05) (tstamp 5DACEAA6))
-  (gr_arc (start 209.46 54.69) (end 209.46 55.69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 192.94 54.69) (end 191.94 54.69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 191.94 55.69) (end 190.94 55.69) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 190.94 54.4) (end 191.94 54.4) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 189.94 55.4) (end 190.94 55.4) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 173.88 52.4) (end 172.88 52.4) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 172.88 53.4) (end 171.88 53.4) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 171.88 49.64) (end 172.88 49.64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 170.88 50.64) (end 171.88 50.64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 153.84 49.64) (end 153.84 48.64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 154.84 50.64) (end 154.84 49.64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 151.84 52.39) (end 151.84 53.39) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 152.84 53.39) (end 152.84 54.39) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 134.79 54.39) (end 134.79 53.39) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 135.79 55.39) (end 135.79 54.39) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 132.79 59.44) (end 132.79 60.44) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 133.79 60.44) (end 133.79 61.44) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 116.73 62.44) (end 116.73 61.44) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 115.73 61.44) (end 115.73 60.44) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_arc (start 114.73 62.92) (end 114.73 63.92) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_line (start 190.94 55.4) (end 190.94 55.69) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE9E6))
-  (gr_line (start 172.88 54.4) (end 189.94 54.4) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE9E2))
-  (gr_line (start 171.88 50.64) (end 171.88 53.4) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE9DD))
-  (gr_line (start 154.84 49.64) (end 161.43 49.64) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE9D5))
-  (gr_line (start 153.84 53.39) (end 153.84 50.64) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 135.79 54.39) (end 142.38 54.39) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE0F5))
-  (gr_line (start 134.79 60.44) (end 134.79 55.39) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 116.73 61.44) (end 133.79 61.44) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE0EC))
-  (gr_line (start 115.73 62.92) (end 115.73 62.44) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 113.73 61.92) (end 113.73 62.92) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_line (start 114.73 61.44) (end 114.73 61.92) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 132.79 60.44) (end 115.73 60.44) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE0C6))
-  (gr_line (start 133.79 54.39) (end 133.79 59.44) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 142.379901 53.389901) (end 134.79 53.39) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE0BE))
-  (gr_line (start 152.84 49.64) (end 152.84 52.39) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 161.429901 48.639901) (end 153.84 48.64) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 172.88 52.4) (end 172.88 49.64) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 190.94 53.4) (end 173.88 53.4) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 191.94 54.69) (end 191.94 54.4) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 199.529901 55.689901) (end 192.94 55.69) (layer Edge.Cuts) (width 0.05) (tstamp 5DACE09F))
-  (gr_line (start 199.53 56.69) (end 191.94 56.69) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 97.16 61.92) (end 96.16 61.92) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD6F2))
-  (gr_line (start 104.279901 63.920099) (end 97.16 63.92) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 104.279901 62.919901) (end 97.16 62.92) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 97.16 64.92) (end 97.16 63.92) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACD5CB))
   (gr_line (start 211.46 59.1665) (end 228.51 59.1665) (layer Edge.Cuts) (width 0.05) (tstamp 5DACC378))
   (gr_arc (start 228.51 60.1665) (end 229.51 60.1665) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DACC2EB))
   (gr_arc (start 133.26 117.0685) (end 133.26 118.0685) (angle -90) (layer Edge.Cuts) (width 0.05))
@@ -4025,7 +3579,7 @@
   (gr_line (start 96.21 97.7325) (end 96.21 119.545) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 154.31 106.2575) (end 171.41 106.2575) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 229.51 133.8325) (end 229.51 60.1665) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 210.46 54.69) (end 210.46 38.156) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 210.46 58.1665) (end 210.46 38.156) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 192.410001 37.156) (end 209.46 37.156) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 154.360001 30.1075) (end 171.360001 30.1075) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 97.21 120.545) (end 114.21 120.545) (layer Edge.Cuts) (width 0.05))
@@ -4040,7 +3594,7 @@
   (gr_line (start 210.51 133.36) (end 210.51 133.8325) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 116.21 118.0685) (end 133.26 118.0685) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 192.46 132.356) (end 209.51 132.36) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 96.16 64.92) (end 96.16 76.7325) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 96.16 45.395) (end 96.16 76.7325) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 173.360001 34.87) (end 190.410001 34.87) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 78.16 77.7325) (end 95.16 77.7325) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 152.360001 33.87) (end 152.360001 34.87) (angle -90) (layer Edge.Cuts) (width 0.05))
