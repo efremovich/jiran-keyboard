@@ -194,13 +194,55 @@
             161430 -48639.9  153840 -48640))
     (via "Via[0-1]_800:400_um")
     (rule
-      (width 250)
+      (width 200)
       (clearance 200.1)
       (clearance 200.1 (type default_smd))
       (clearance 50 (type smd_smd))
     )
   )
   (placement
+    (component Used_Footprints:HoleBreak
+      (place HB27 151710 -52610 front 0 (PN HoleBreak))
+      (place HB29 151370 -51730 front 0 (PN HoleBreak))
+      (place HB31 151480 -50770 front 0 (PN HoleBreak))
+      (place HB33 152010 -49960 front 0 (PN HoleBreak))
+      (place HB24 154650 -52970 front 0 (PN HoleBreak))
+      (place HB22 155210 -52190 front 0 (PN HoleBreak))
+      (place HB20 155350 -51280 front 0 (PN HoleBreak))
+      (place HB18 155030 -50400 front 0 (PN HoleBreak))
+      (place HB1 191070 -53030 front 0 (PN HoleBreak))
+      (place HB3 192130 -53190 front 0 (PN HoleBreak))
+      (place HB5 193000 -53810 front 0 (PN HoleBreak))
+      (place HB7 193410 -54780 front 0 (PN HoleBreak))
+      (place HB9 191770 -57040 front 0 (PN HoleBreak))
+      (place HB11 190690 -56920 front 0 (PN HoleBreak))
+      (place HB13 189840 -56290 front 0 (PN HoleBreak))
+      (place HB15 189430 -55320 front 0 (PN HoleBreak))
+      (place HB12 190240 -56660 front 0 (PN HoleBreak))
+      (place HB14 189560 -55820 front 0 (PN HoleBreak))
+      (place HB16 189420 -54790 front 0 (PN HoleBreak))
+      (place HB10 191220 -57040 front 0 (PN HoleBreak))
+      (place HB2 191590 -53060 front 0 (PN HoleBreak))
+      (place HB4 192620 -53470 front 0 (PN HoleBreak))
+      (place HB6 193260 -54270 front 0 (PN HoleBreak))
+      (place HB8 193390 -55310 front 0 (PN HoleBreak))
+      (place HB34 152380 -49690 front 0 (PN HoleBreak))
+      (place HB32 151720 -50310 front 0 (PN HoleBreak))
+      (place HB30 151350 -51260 front 0 (PN HoleBreak))
+      (place HB28 151480 -52180 front 0 (PN HoleBreak))
+      (place HB26 152010 -52960 front 0 (PN HoleBreak))
+      (place HB25 154270 -53250 front 0 (PN HoleBreak))
+      (place HB23 154960 -52610 front 0 (PN HoleBreak))
+      (place HB19 155240 -50820 front 0 (PN HoleBreak))
+      (place HB21 155330 -51730 front 0 (PN HoleBreak))
+    )
+    (component Used_Footprints:MountHole
+      (place H1 96160 -82496.5 front 0 (PN CaseHole))
+      (place H2 115235 -100283 front 0 (PN CaseHole))
+      (place H3 153280 -70551.2 front 0 (PN CaseHole))
+      (place H6 191435 -74089.5 front 0 (PN CaseHole))
+      (place H7 191435 -112190 front 0 (PN CaseHole))
+    )
     (component Used_Footprints:LED
       (place D29 105710 -48820 front 180 (PN LED_Small))
       (place D30 124760 -46340 front 180 (PN LED_Small))
@@ -251,30 +293,11 @@
       (place G1 219980 -77830 back 0 (PN LOGO))
       (place G2 219890 -77830 front 0 (PN LOGO))
     )
-    (component Used_Footprints:HoleBreak
-      (place HB17 190330 -56500 front 0 (PN HoleBreak))
-      (place HB16 189730 -55760 front 0 (PN HoleBreak))
-      (place HB15 189620 -54790 front 0 (PN HoleBreak))
-      (place HB18 191240 -56870 front 0 (PN HoleBreak))
-      (place HB11 191580 -53200 front 0 (PN HoleBreak))
-      (place HB12 192530 -53550 front 0 (PN HoleBreak))
-      (place HB13 193140 -54340 front 0 (PN HoleBreak))
-      (place HB14 193260 -55330 front 0 (PN HoleBreak))
-      (place HB1 152480 -49850 front 0 (PN HoleBreak))
-      (place HB2 151820 -50430 front 0 (PN HoleBreak))
-      (place HB3 151510 -51280 front 0 (PN HoleBreak))
-      (place HB4 151610 -52180 front 0 (PN HoleBreak))
-      (place HB5 152150 -52910 front 0 (PN HoleBreak))
-      (place HB10 154220 -53140 front 0 (PN HoleBreak))
-      (place HB9 154880 -52520 front 0 (PN HoleBreak))
-      (place HB7 155030 -50780 front 0 (PN HoleBreak))
-      (place HB8 155180 -51670 front 0 (PN HoleBreak))
-    )
     (component "Used_Footprints:SOT-23"
       (place Q1 212380 -96480 front 90 (PN 2N7002))
     )
     (component Used_Footprints:HoleBreak::1
-      (place HB6 154990 -50220 front 0 (PN HoleBreak))
+      (place HB17 155220 -50160 front 0 (PN HoleBreak))
     )
     (component 1kbd:jumper
       (place JP5 212770 -108840 back 180 (PN Jumper))
@@ -284,13 +307,6 @@
     )
     (component Used_Footprints:TRSS_DUAL
       (place J1 227610 -106740 front 270 (PN TRRS))
-    )
-    (component Used_Footprints:MountHole
-      (place H1 96160 -82496.5 front 0 (PN CaseHole))
-      (place H2 115235 -100283 front 0 (PN CaseHole))
-      (place H3 153280 -70551.2 front 0 (PN CaseHole))
-      (place H6 191435 -74089.5 front 0 (PN CaseHole))
-      (place H7 191435 -112190 front 0 (PN CaseHole))
     )
     (component Used_Footprints:CoverHole
       (place H8 227010 -112834 front 0 (PN CoverHole))
@@ -387,6 +403,14 @@
     )
   )
   (library
+    (image Used_Footprints:HoleBreak
+      (keepout "" (circle F.Cu 500))
+      (keepout "" (circle B.Cu 500))
+    )
+    (image Used_Footprints:MountHole
+      (keepout "" (circle F.Cu 4000))
+      (keepout "" (circle B.Cu 4000))
+    )
     (image Used_Footprints:LED
       (pin RoundRect[A]Pad_1800x1800_361.37_um 2 1270 0)
       (pin Round[A]Pad_1800_um 1 -1270 0)
@@ -423,10 +447,6 @@
       (keepout "" (circle B.Cu 1000 5220 4200))
     )
     (image 1symblos:Silkscreen
-    )
-    (image Used_Footprints:HoleBreak
-      (keepout "" (circle F.Cu 500))
-      (keepout "" (circle B.Cu 500))
     )
     (image "Used_Footprints:SOT-23"
       (outline (path signal 50  -1640 1670  1760 1670))
@@ -465,10 +485,6 @@
       (keepout "" (circle B.Cu 1200 0 -8500))
       (keepout "" (circle F.Cu 1200 0 -1500))
       (keepout "" (circle B.Cu 1200 0 -1500))
-    )
-    (image Used_Footprints:MountHole
-      (keepout "" (circle F.Cu 3700))
-      (keepout "" (circle B.Cu 3700))
     )
     (image Used_Footprints:CoverHole
       (pin Round[A]Pad_4000_um 1 0 0)
@@ -1082,7 +1098,7 @@
         (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 250)
+        (width 200)
         (clearance 200.1)
       )
     )
