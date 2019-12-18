@@ -289,15 +289,11 @@
       (place SW27 200960 -122860 front 0 (PN SW_Push))
       (place SW28 220010 -125330 front 0 (PN SW_Push))
     )
-    (component 1symblos:Silkscreen
-      (place G1 219980 -77830 back 0 (PN LOGO))
-      (place G2 219890 -77830 front 0 (PN LOGO))
-    )
     (component "Used_Footprints:SOT-23"
       (place Q1 212380 -96480 front 90 (PN 2N7002))
     )
     (component Used_Footprints:HoleBreak::1
-      (place HB17 155220 -50160 front 0 (PN HoleBreak))
+      (place HB17 155270 -50200 front 0 (PN HoleBreak))
     )
     (component 1kbd:jumper
       (place JP5 212770 -108840 back 180 (PN Jumper))
@@ -445,8 +441,6 @@
       (keepout "" (circle B.Cu 1000 -5220 4200))
       (keepout "" (circle F.Cu 1000 5220 4200))
       (keepout "" (circle B.Cu 1000 5220 4200))
-    )
-    (image 1symblos:Silkscreen
     )
     (image "Used_Footprints:SOT-23"
       (outline (path signal 50  -1640 1670  1760 1670))
