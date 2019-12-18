@@ -330,7 +330,7 @@
   )
 
   (module Used_Footprints:MountHole (layer F.Cu) (tedit 5DFA2876) (tstamp 5DC04774)
-    (at 153.28 70.5512)
+    (at 153.33 51.45525)
     (path /5DC0F92C)
     (fp_text reference H3 (at 0.5 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -342,9 +342,9 @@
   )
 
   (module Used_Footprints:MountHole (layer F.Cu) (tedit 5DFA2876) (tstamp 5DC04783)
-    (at 191.435 74.0895)
+    (at 191.43 54.9795)
     (path /5DC1BC76)
-    (fp_text reference H6 (at 0.5 -2.77) (layer F.SilkS) hide
+    (fp_text reference H4 (at 0.5 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
@@ -356,7 +356,7 @@
   (module Used_Footprints:MountHole (layer F.Cu) (tedit 5DFA2876) (tstamp 5DC04788)
     (at 191.435 112.19)
     (path /5DC1BC7C)
-    (fp_text reference H7 (at 0.5 -2.77) (layer F.SilkS) hide
+    (fp_text reference H5 (at 0.5 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
