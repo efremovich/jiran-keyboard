@@ -3785,7 +3785,7 @@
   )
 
   (module Used_Footprints:ProMicro_TwoSide (layer F.Cu) (tedit 5DAFEF38) (tstamp 5DABCD00)
-    (at 220.54 78.53)
+    (at 220.54 77.92)
     (path /5DAA926E)
     (fp_text reference U1 (at 0 -15.69) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
