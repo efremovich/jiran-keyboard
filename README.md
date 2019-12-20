@@ -7,8 +7,17 @@ You can meet with layout here: [Eng](http://www.keyboard-layout-editor.com/#/gis
 
 And original Jian layout here: [Eng](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f) [Ru](http://www.keyboard-layout-editor.com/#/gists/9740d2bf0e1b98644100a7caa60be88a)
 ## Building
-Will be soon
-## Bill of materials
-| Description   | Value         | Package      | Amount       |
-| ------------- | ------------- | ------------ | ------------ |
-| Content Cell  | Content Cell  | Content Cell | Content Cell |
+Soon
+## BOM for PCB
+| Description    | Value         | Package           | Count        | Remark             |
+| -------------- | :-----------: | ----------------- | -----------: | ------------------ |
+| Pro micro      |               | 33.5x18mm         | 2            |                    |
+| Switch         | MX/Alps/Choc  | THT               | 56           |                    |
+| Diode          | 1N4148        | THT/SMD (SOD-123) | 56           |                    |
+| Resistor       | 10k           | THT/SMD (0805)    | 2            | Optional for LED's |
+| Resistor       | 4.7k          | THT/SMD (0805)    | 2            |                    |
+| Resistor       | 330           | THT/SMD (0805)    | 56           | Optional for LED's |
+| Tact switch    |               | DIP 3X6X4,3mm     | 2            |                    |
+| TRRS jack      |               | PJ-320A           | 2            |                    |
+| Mosfet         | 2N7002        | SOT-123           | 2            | Optional for LED's |
+| LED            |               | THT 1.8mm         | 56           | Optional           |
