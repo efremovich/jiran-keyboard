@@ -1,5 +1,5 @@
 # Jiran Keyboard
-Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys
+Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys.
 
 Based on original Jian keyboard.
 ## Layout
