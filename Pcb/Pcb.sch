@@ -37,7 +37,7 @@ U 1 1 5DAAA6F2
 P 885 1245
 F 0 "R29" V 815 1245 50  0000 C CNN
 F 1 "4.7" V 885 1245 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 885 1245 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 885 1245 50  0001 C CNN
 F 3 "~" H 885 1245 50  0001 C CNN
 	1    885  1245
 	-1   0    0    1   
@@ -48,7 +48,7 @@ U 1 1 5DAAB292
 P 885 1545
 F 0 "R30" V 805 1545 50  0000 C CNN
 F 1 "4.7k" V 880 1545 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 885 1545 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 885 1545 50  0001 C CNN
 F 3 "~" H 885 1545 50  0001 C CNN
 	1    885  1545
 	-1   0    0    1   
@@ -471,7 +471,7 @@ U 1 1 5DACBEC8
 P 3545 990
 F 0 "D1" V 3545 922 50  0000 R CNN
 F 1 "D_Small" V 3500 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 3545 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 3545 990 50  0001 C CNN
 F 3 "~" V 3545 990 50  0001 C CNN
 	1    3545 990 
 	0    -1   -1   0   
@@ -482,7 +482,7 @@ U 1 1 5DACCFB7
 P 4145 990
 F 0 "D2" V 4145 922 50  0000 R CNN
 F 1 "D_Small" V 4100 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4145 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4145 990 50  0001 C CNN
 F 3 "~" V 4145 990 50  0001 C CNN
 	1    4145 990 
 	0    -1   -1   0   
@@ -493,7 +493,7 @@ U 1 1 5DACDB06
 P 4745 990
 F 0 "D3" V 4745 922 50  0000 R CNN
 F 1 "D_Small" V 4700 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4745 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4745 990 50  0001 C CNN
 F 3 "~" V 4745 990 50  0001 C CNN
 	1    4745 990 
 	0    -1   -1   0   
@@ -504,7 +504,7 @@ U 1 1 5DACE326
 P 5345 990
 F 0 "D4" V 5345 922 50  0000 R CNN
 F 1 "D_Small" V 5300 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5345 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5345 990 50  0001 C CNN
 F 3 "~" V 5345 990 50  0001 C CNN
 	1    5345 990 
 	0    -1   -1   0   
@@ -515,7 +515,7 @@ U 1 1 5DACF0C2
 P 5945 990
 F 0 "D5" V 5945 922 50  0000 R CNN
 F 1 "D_Small" V 5900 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5945 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5945 990 50  0001 C CNN
 F 3 "~" V 5945 990 50  0001 C CNN
 	1    5945 990 
 	0    -1   -1   0   
@@ -526,7 +526,7 @@ U 1 1 5DACF9C3
 P 6545 990
 F 0 "D6" V 6545 922 50  0000 R CNN
 F 1 "D_Small" V 6500 922 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 6545 990 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 6545 990 50  0001 C CNN
 F 3 "~" V 6545 990 50  0001 C CNN
 	1    6545 990 
 	0    -1   -1   0   
@@ -537,7 +537,7 @@ U 1 1 5DAD32AA
 P 3545 1390
 F 0 "D7" V 3545 1322 50  0000 R CNN
 F 1 "D_Small" V 3500 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 3545 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 3545 1390 50  0001 C CNN
 F 3 "~" V 3545 1390 50  0001 C CNN
 	1    3545 1390
 	0    -1   -1   0   
@@ -548,7 +548,7 @@ U 1 1 5DAD32B0
 P 4145 1390
 F 0 "D8" V 4145 1322 50  0000 R CNN
 F 1 "D_Small" V 4100 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4145 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4145 1390 50  0001 C CNN
 F 3 "~" V 4145 1390 50  0001 C CNN
 	1    4145 1390
 	0    -1   -1   0   
@@ -559,7 +559,7 @@ U 1 1 5DAD32B6
 P 4745 1390
 F 0 "D9" V 4745 1322 50  0000 R CNN
 F 1 "D_Small" V 4700 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4745 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4745 1390 50  0001 C CNN
 F 3 "~" V 4745 1390 50  0001 C CNN
 	1    4745 1390
 	0    -1   -1   0   
@@ -570,7 +570,7 @@ U 1 1 5DAD32BC
 P 5345 1390
 F 0 "D10" V 5345 1322 50  0000 R CNN
 F 1 "D_Small" V 5300 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5345 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5345 1390 50  0001 C CNN
 F 3 "~" V 5345 1390 50  0001 C CNN
 	1    5345 1390
 	0    -1   -1   0   
@@ -581,7 +581,7 @@ U 1 1 5DAD32C2
 P 5945 1390
 F 0 "D11" V 5945 1322 50  0000 R CNN
 F 1 "D_Small" V 5900 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5945 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5945 1390 50  0001 C CNN
 F 3 "~" V 5945 1390 50  0001 C CNN
 	1    5945 1390
 	0    -1   -1   0   
@@ -592,7 +592,7 @@ U 1 1 5DAD32C8
 P 6545 1390
 F 0 "D12" V 6545 1322 50  0000 R CNN
 F 1 "D_Small" V 6500 1322 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 6545 1390 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 6545 1390 50  0001 C CNN
 F 3 "~" V 6545 1390 50  0001 C CNN
 	1    6545 1390
 	0    -1   -1   0   
@@ -603,7 +603,7 @@ U 1 1 5DAD50DF
 P 3545 1790
 F 0 "D13" V 3545 1722 50  0000 R CNN
 F 1 "D_Small" V 3500 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 3545 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 3545 1790 50  0001 C CNN
 F 3 "~" V 3545 1790 50  0001 C CNN
 	1    3545 1790
 	0    -1   -1   0   
@@ -614,7 +614,7 @@ U 1 1 5DAD50E5
 P 4145 1790
 F 0 "D14" V 4145 1722 50  0000 R CNN
 F 1 "D_Small" V 4100 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4145 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4145 1790 50  0001 C CNN
 F 3 "~" V 4145 1790 50  0001 C CNN
 	1    4145 1790
 	0    -1   -1   0   
@@ -625,7 +625,7 @@ U 1 1 5DAD50EB
 P 4745 1790
 F 0 "D15" V 4745 1722 50  0000 R CNN
 F 1 "D_Small" V 4700 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4745 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4745 1790 50  0001 C CNN
 F 3 "~" V 4745 1790 50  0001 C CNN
 	1    4745 1790
 	0    -1   -1   0   
@@ -636,7 +636,7 @@ U 1 1 5DAD50F1
 P 5345 1790
 F 0 "D16" V 5345 1722 50  0000 R CNN
 F 1 "D_Small" V 5300 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5345 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5345 1790 50  0001 C CNN
 F 3 "~" V 5345 1790 50  0001 C CNN
 	1    5345 1790
 	0    -1   -1   0   
@@ -647,7 +647,7 @@ U 1 1 5DAD50F7
 P 5945 1790
 F 0 "D17" V 5945 1722 50  0000 R CNN
 F 1 "D_Small" V 5900 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5945 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5945 1790 50  0001 C CNN
 F 3 "~" V 5945 1790 50  0001 C CNN
 	1    5945 1790
 	0    -1   -1   0   
@@ -658,7 +658,7 @@ U 1 1 5DAD50FD
 P 6545 1790
 F 0 "D18" V 6545 1722 50  0000 R CNN
 F 1 "D_Small" V 6500 1722 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 6545 1790 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 6545 1790 50  0001 C CNN
 F 3 "~" V 6545 1790 50  0001 C CNN
 	1    6545 1790
 	0    -1   -1   0   
@@ -669,7 +669,7 @@ U 1 1 5DAD62CE
 P 3545 2190
 F 0 "D19" V 3545 2122 50  0000 R CNN
 F 1 "D_Small" V 3500 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 3545 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 3545 2190 50  0001 C CNN
 F 3 "~" V 3545 2190 50  0001 C CNN
 	1    3545 2190
 	0    -1   -1   0   
@@ -680,7 +680,7 @@ U 1 1 5DAD62D4
 P 4145 2190
 F 0 "D20" V 4145 2122 50  0000 R CNN
 F 1 "D_Small" V 4100 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4145 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4145 2190 50  0001 C CNN
 F 3 "~" V 4145 2190 50  0001 C CNN
 	1    4145 2190
 	0    -1   -1   0   
@@ -691,7 +691,7 @@ U 1 1 5DAD62DA
 P 4745 2190
 F 0 "D21" V 4745 2122 50  0000 R CNN
 F 1 "D_Small" V 4700 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 4745 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 4745 2190 50  0001 C CNN
 F 3 "~" V 4745 2190 50  0001 C CNN
 	1    4745 2190
 	0    -1   -1   0   
@@ -702,7 +702,7 @@ U 1 1 5DAD62E0
 P 5345 2190
 F 0 "D22" V 5345 2122 50  0000 R CNN
 F 1 "D_Small" V 5300 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5345 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5345 2190 50  0001 C CNN
 F 3 "~" V 5345 2190 50  0001 C CNN
 	1    5345 2190
 	0    -1   -1   0   
@@ -713,7 +713,7 @@ U 1 1 5DAD62E6
 P 5945 2190
 F 0 "D23" V 5945 2122 50  0000 R CNN
 F 1 "D_Small" V 5900 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5945 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5945 2190 50  0001 C CNN
 F 3 "~" V 5945 2190 50  0001 C CNN
 	1    5945 2190
 	0    -1   -1   0   
@@ -724,7 +724,7 @@ U 1 1 5DAD62EC
 P 6545 2190
 F 0 "D24" V 6545 2122 50  0000 R CNN
 F 1 "D_Small" V 6500 2122 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 6545 2190 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 6545 2190 50  0001 C CNN
 F 3 "~" V 6545 2190 50  0001 C CNN
 	1    6545 2190
 	0    -1   -1   0   
@@ -735,7 +735,7 @@ U 1 1 5DAD7EB7
 P 3545 2590
 F 0 "D25" V 3545 2522 50  0000 R CNN
 F 1 "D_Small" V 3500 2522 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 3545 2590 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 3545 2590 50  0001 C CNN
 F 3 "~" V 3545 2590 50  0001 C CNN
 	1    3545 2590
 	0    -1   -1   0   
@@ -746,7 +746,7 @@ U 1 1 5DAD7EC9
 P 5345 2590
 F 0 "D26" V 5345 2522 50  0000 R CNN
 F 1 "D_Small" V 5300 2522 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5345 2590 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5345 2590 50  0001 C CNN
 F 3 "~" V 5345 2590 50  0001 C CNN
 	1    5345 2590
 	0    -1   -1   0   
@@ -757,7 +757,7 @@ U 1 1 5DAD7ECF
 P 5945 2590
 F 0 "D27" V 5945 2522 50  0000 R CNN
 F 1 "D_Small" V 5900 2522 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 5945 2590 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 5945 2590 50  0001 C CNN
 F 3 "~" V 5945 2590 50  0001 C CNN
 	1    5945 2590
 	0    -1   -1   0   
@@ -768,7 +768,7 @@ U 1 1 5DAD7ED5
 P 6545 2590
 F 0 "D28" V 6545 2522 50  0000 R CNN
 F 1 "D_Small" V 6500 2522 50  0001 R CNN
-F 2 "Used_Footprints:Diode_SMD_TH" V 6545 2590 50  0001 C CNN
+F 2 "Used_Footprints:Diode_Hybrid_SOD-123" V 6545 2590 50  0001 C CNN
 F 3 "~" V 6545 2590 50  0001 C CNN
 	1    6545 2590
 	0    -1   -1   0   
@@ -967,7 +967,7 @@ U 1 1 5DAE596B
 P 7335 1185
 F 0 "R1" H 7394 1185 50  0000 L CNN
 F 1 "R_Small" H 7394 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7335 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7335 1185 50  0001 C CNN
 F 3 "~" H 7335 1185 50  0001 C CNN
 	1    7335 1185
 	1    0    0    -1  
@@ -978,7 +978,7 @@ U 1 1 5DAE6ACD
 P 7685 1185
 F 0 "R2" H 7744 1185 50  0000 L CNN
 F 1 "R_Small" H 7744 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7685 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7685 1185 50  0001 C CNN
 F 3 "~" H 7685 1185 50  0001 C CNN
 	1    7685 1185
 	1    0    0    -1  
@@ -989,7 +989,7 @@ U 1 1 5DAE6EDD
 P 8035 1185
 F 0 "R3" H 8094 1185 50  0000 L CNN
 F 1 "R_Small" H 8094 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8035 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8035 1185 50  0001 C CNN
 F 3 "~" H 8035 1185 50  0001 C CNN
 	1    8035 1185
 	1    0    0    -1  
@@ -1000,7 +1000,7 @@ U 1 1 5DAE996A
 P 8385 1185
 F 0 "R4" H 8444 1185 50  0000 L CNN
 F 1 "R_Small" H 8444 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8385 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8385 1185 50  0001 C CNN
 F 3 "~" H 8385 1185 50  0001 C CNN
 	1    8385 1185
 	1    0    0    -1  
@@ -1011,7 +1011,7 @@ U 1 1 5DAE9970
 P 8735 1185
 F 0 "R5" H 8794 1185 50  0000 L CNN
 F 1 "R_Small" H 8794 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8735 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8735 1185 50  0001 C CNN
 F 3 "~" H 8735 1185 50  0001 C CNN
 	1    8735 1185
 	1    0    0    -1  
@@ -1022,7 +1022,7 @@ U 1 1 5DAE9976
 P 9085 1185
 F 0 "R6" H 9144 1185 50  0000 L CNN
 F 1 "R_Small" H 9144 1140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 9085 1185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 9085 1185 50  0001 C CNN
 F 3 "~" H 9085 1185 50  0001 C CNN
 	1    9085 1185
 	1    0    0    -1  
@@ -1099,7 +1099,7 @@ U 1 1 5DAF3F44
 P 7335 1685
 F 0 "R7" H 7394 1685 50  0000 L CNN
 F 1 "R_Small" H 7394 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7335 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7335 1685 50  0001 C CNN
 F 3 "~" H 7335 1685 50  0001 C CNN
 	1    7335 1685
 	1    0    0    -1  
@@ -1110,7 +1110,7 @@ U 1 1 5DAF3F4A
 P 7685 1685
 F 0 "R8" H 7744 1685 50  0000 L CNN
 F 1 "R_Small" H 7744 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7685 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7685 1685 50  0001 C CNN
 F 3 "~" H 7685 1685 50  0001 C CNN
 	1    7685 1685
 	1    0    0    -1  
@@ -1121,7 +1121,7 @@ U 1 1 5DAF3F50
 P 8035 1685
 F 0 "R9" H 8094 1685 50  0000 L CNN
 F 1 "R_Small" H 8094 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8035 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8035 1685 50  0001 C CNN
 F 3 "~" H 8035 1685 50  0001 C CNN
 	1    8035 1685
 	1    0    0    -1  
@@ -1132,7 +1132,7 @@ U 1 1 5DAF3F56
 P 8385 1685
 F 0 "R10" H 8444 1685 50  0000 L CNN
 F 1 "R_Small" H 8444 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8385 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8385 1685 50  0001 C CNN
 F 3 "~" H 8385 1685 50  0001 C CNN
 	1    8385 1685
 	1    0    0    -1  
@@ -1143,7 +1143,7 @@ U 1 1 5DAF3F5C
 P 8735 1685
 F 0 "R11" H 8794 1685 50  0000 L CNN
 F 1 "R_Small" H 8794 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8735 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8735 1685 50  0001 C CNN
 F 3 "~" H 8735 1685 50  0001 C CNN
 	1    8735 1685
 	1    0    0    -1  
@@ -1154,7 +1154,7 @@ U 1 1 5DAF3F62
 P 9085 1685
 F 0 "R12" H 9144 1685 50  0000 L CNN
 F 1 "R_Small" H 9144 1640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 9085 1685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 9085 1685 50  0001 C CNN
 F 3 "~" H 9085 1685 50  0001 C CNN
 	1    9085 1685
 	1    0    0    -1  
@@ -1231,7 +1231,7 @@ U 1 1 5DAF8764
 P 7335 2185
 F 0 "R13" H 7394 2185 50  0000 L CNN
 F 1 "R_Small" H 7394 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7335 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7335 2185 50  0001 C CNN
 F 3 "~" H 7335 2185 50  0001 C CNN
 	1    7335 2185
 	1    0    0    -1  
@@ -1242,7 +1242,7 @@ U 1 1 5DAF876A
 P 7685 2185
 F 0 "R14" H 7744 2185 50  0000 L CNN
 F 1 "R_Small" H 7744 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7685 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7685 2185 50  0001 C CNN
 F 3 "~" H 7685 2185 50  0001 C CNN
 	1    7685 2185
 	1    0    0    -1  
@@ -1253,7 +1253,7 @@ U 1 1 5DAF8770
 P 8035 2185
 F 0 "R15" H 8094 2185 50  0000 L CNN
 F 1 "R_Small" H 8094 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8035 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8035 2185 50  0001 C CNN
 F 3 "~" H 8035 2185 50  0001 C CNN
 	1    8035 2185
 	1    0    0    -1  
@@ -1264,7 +1264,7 @@ U 1 1 5DAF8776
 P 8385 2185
 F 0 "R16" H 8444 2185 50  0000 L CNN
 F 1 "R_Small" H 8444 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8385 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8385 2185 50  0001 C CNN
 F 3 "~" H 8385 2185 50  0001 C CNN
 	1    8385 2185
 	1    0    0    -1  
@@ -1275,7 +1275,7 @@ U 1 1 5DAF877C
 P 8735 2185
 F 0 "R17" H 8794 2185 50  0000 L CNN
 F 1 "R_Small" H 8794 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8735 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8735 2185 50  0001 C CNN
 F 3 "~" H 8735 2185 50  0001 C CNN
 	1    8735 2185
 	1    0    0    -1  
@@ -1286,7 +1286,7 @@ U 1 1 5DAF8782
 P 9085 2185
 F 0 "R18" H 9144 2185 50  0000 L CNN
 F 1 "R_Small" H 9144 2140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 9085 2185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 9085 2185 50  0001 C CNN
 F 3 "~" H 9085 2185 50  0001 C CNN
 	1    9085 2185
 	1    0    0    -1  
@@ -1363,7 +1363,7 @@ U 1 1 5DAFC88A
 P 7335 2685
 F 0 "R19" H 7394 2685 50  0000 L CNN
 F 1 "R_Small" H 7394 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7335 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7335 2685 50  0001 C CNN
 F 3 "~" H 7335 2685 50  0001 C CNN
 	1    7335 2685
 	1    0    0    -1  
@@ -1374,7 +1374,7 @@ U 1 1 5DAFC890
 P 7685 2685
 F 0 "R20" H 7744 2685 50  0000 L CNN
 F 1 "R_Small" H 7744 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7685 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7685 2685 50  0001 C CNN
 F 3 "~" H 7685 2685 50  0001 C CNN
 	1    7685 2685
 	1    0    0    -1  
@@ -1385,7 +1385,7 @@ U 1 1 5DAFC896
 P 8035 2685
 F 0 "R21" H 8094 2685 50  0000 L CNN
 F 1 "R_Small" H 8094 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8035 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8035 2685 50  0001 C CNN
 F 3 "~" H 8035 2685 50  0001 C CNN
 	1    8035 2685
 	1    0    0    -1  
@@ -1396,7 +1396,7 @@ U 1 1 5DAFC89C
 P 8385 2685
 F 0 "R22" H 8444 2685 50  0000 L CNN
 F 1 "R_Small" H 8444 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8385 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8385 2685 50  0001 C CNN
 F 3 "~" H 8385 2685 50  0001 C CNN
 	1    8385 2685
 	1    0    0    -1  
@@ -1407,7 +1407,7 @@ U 1 1 5DAFC8A2
 P 8735 2685
 F 0 "R23" H 8794 2685 50  0000 L CNN
 F 1 "R_Small" H 8794 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 8735 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 8735 2685 50  0001 C CNN
 F 3 "~" H 8735 2685 50  0001 C CNN
 	1    8735 2685
 	1    0    0    -1  
@@ -1418,7 +1418,7 @@ U 1 1 5DAFC8A8
 P 9085 2685
 F 0 "R24" H 9144 2685 50  0000 L CNN
 F 1 "R_Small" H 9144 2640 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 9085 2685 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 9085 2685 50  0001 C CNN
 F 3 "~" H 9085 2685 50  0001 C CNN
 	1    9085 2685
 	1    0    0    -1  
@@ -1473,7 +1473,7 @@ U 1 1 5DB007AE
 P 7335 3185
 F 0 "R25" H 7394 3185 50  0000 L CNN
 F 1 "R_Small" H 7394 3140 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 7335 3185 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 7335 3185 50  0001 C CNN
 F 3 "~" H 7335 3185 50  0001 C CNN
 	1    7335 3185
 	1    0    0    -1  
@@ -1484,7 +1484,7 @@ U 1 1 5DB007C0
 P 9845 1825
 F 0 "R26" H 9904 1825 50  0000 L CNN
 F 1 "R_Small" H 9904 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 9845 1825 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 9845 1825 50  0001 C CNN
 F 3 "~" H 9845 1825 50  0001 C CNN
 	1    9845 1825
 	1    0    0    -1  
@@ -1495,7 +1495,7 @@ U 1 1 5DB007C6
 P 10195 1825
 F 0 "R27" H 10254 1825 50  0000 L CNN
 F 1 "R_Small" H 10254 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 10195 1825 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 10195 1825 50  0001 C CNN
 F 3 "~" H 10195 1825 50  0001 C CNN
 	1    10195 1825
 	1    0    0    -1  
@@ -1506,7 +1506,7 @@ U 1 1 5DB007CC
 P 10545 1825
 F 0 "R28" H 10604 1825 50  0000 L CNN
 F 1 "R_Small" H 10604 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 10545 1825 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 10545 1825 50  0001 C CNN
 F 3 "~" H 10545 1825 50  0001 C CNN
 	1    10545 1825
 	1    0    0    -1  
@@ -1712,7 +1712,7 @@ U 1 1 5DB7D24B
 P 10200 3025
 F 0 "R31" H 10240 3065 50  0000 L CNN
 F 1 "100k" H 10240 2985 50  0000 L CNN
-F 2 "Used_Footprints:Resistor_SMD_TH" H 10200 3025 50  0001 C CNN
+F 2 "Used_Footprints:Resistor_Hybrid_0805" H 10200 3025 50  0001 C CNN
 F 3 "~" H 10200 3025 50  0001 C CNN
 	1    10200 3025
 	1    0    0    -1  
