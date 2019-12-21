@@ -1,4 +1,4 @@
-[![MechChurch](https://i.imgur.com/QHzKmkz.png) MechChurch](https://t.me/mechchurch)
+[![MechChurch](https://i.imgur.com/QHzKmkz.png) MechChurch](https://t.me/s/mechchurch)
 # Jiran Keyboard
 Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys. 
 
