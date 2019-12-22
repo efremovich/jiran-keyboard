@@ -1,4 +1,3 @@
-[![MechChurch](https://i.imgur.com/QHzKmkz.png) MechChurch](https://t.me/s/mechchurch)
 # Jiran Keyboard
 Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys. 
 
@@ -25,3 +24,5 @@ Based on the [Jian keyboard](https://docs.google.com/forms/d/e/1FAIpQLSdwGvwtzIb
 | Resistor       | 10k           | THT/SMD (0805)    | 2            |  yes      | Optional for LED's |
 | Resistor       | 330           | THT/SMD (0805)    | 56           |  yes      | Optional for LED's |
 | LED            |               | THT 1.8mm         | 56           |  yes      | Optional           |
+
+[![MechChurch](https://i.imgur.com/QHzKmkz.png) MechChurch](https://t.me/s/mechchurch)
