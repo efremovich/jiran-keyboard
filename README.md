@@ -1,9 +1,9 @@
 # Jiran Keyboard
 Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys. 
 
-Based on the [Jian keyboard](https://docs.google.com/forms/d/e/1FAIpQLSdwGvwtzIbPnHGXDWHnTBHZ2Rppxo7zm2IfQFo6qOxk6CD4sg/viewform).
-
 <img src="https://raw.githubusercontent.com/Ladniy/jiran-keyboard/master/Pcb/Design/Pcb.png" data-canonical-src="Render" height="300"/>
+
+Based on the [Jian](https://github.com/KGOH/Jian-Info) keyboard.
 
 * __Author:__ [t.me/ladniys](https://t.me/ladniys) [u/Ladniy](https://reddit.com/u/Ladniy)
 * __Layout:__ [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/#/gists/0547cd126f61f8c3f76b0a9952901da4)
