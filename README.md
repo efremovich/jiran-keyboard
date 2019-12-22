@@ -25,4 +25,4 @@ Based on the [Jian keyboard](https://docs.google.com/forms/d/e/1FAIpQLSdwGvwtzIb
 | Resistor       | 330           | THT/SMD (0805)    | 56           |  yes      | Optional for LED's |
 | LED            |               | THT 1.8mm         | 56           |  yes      | Optional           |
 
-[![MechChurch](https://i.imgur.com/QHzKmkz.png) MechChurch](https://t.me/s/mechchurch)
+[![MechChurch](https://i.imgur.com/QHzKmkz.png)](https://t.me/s/mechchurch) Supported by [MechChurch](https://t.me/s/mechchurch) community
