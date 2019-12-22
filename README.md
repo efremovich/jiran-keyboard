@@ -10,7 +10,7 @@ Based on the [Jian](https://github.com/KGOH/Jian-Info) keyboard.
 * __Hardware Availability:__ open source, t.me/ladniys
 * __Firmware:__ not available yet
 * __Building guide:__ not available yet
-* __BOM:__
+* __Parts (BOM):__
 
 | Name           | Value         | Package           | Count        | Optional  | Comment            |
 | :------------- | ------------: | :---------------- | -----------: | :-------- | :----------------- |
