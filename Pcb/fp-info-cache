@@ -1,4 +1,4 @@
-17156168667775157
+17151499017013558
 1kbd
 battery_pad
 
@@ -76174,47 +76174,40 @@ Wurth-632723300011-MaximumExtensionMount
 32
 27
 Used_Footprints
-CoverHole
-
-
-0
-1
-1
-Used_Footprints
 Diode_Hybrid_SOD-123
 
 
 0
-8
+10
 2
 Used_Footprints
-HoleBreak
+Hole_Cover_M2
+
+
+0
+1
+1
+Used_Footprints
+Hole_Mount_M4
 
 
 0
 0
 0
 Used_Footprints
-ISP
+LED_THT_1.8mm
+
+
+0
+2
+2
+Used_Footprints
+Mosfet_SMD_Dual_SOT-23
 
 
 0
 6
-6
-Used_Footprints
-LED
-
-
-0
-2
-2
-Used_Footprints
-MountHole
-
-
-0
-0
-0
+3
 Used_Footprints
 MX_Two_Side
 
@@ -76230,35 +76223,21 @@ ProMicro_TwoSide
 48
 24
 Used_Footprints
-Reset_Switch
+Resistor_Hybrid_1205
+
+
+0
+10
+2
+Used_Footprints
+Switch_Reset_THT
 
 
 0
 2
 2
 Used_Footprints
-Resistor_Hybrid_0805
-
-
-0
-8
-2
-Used_Footprints
-SOT-23
-
-
-0
-6
-3
-Used_Footprints
-TRRS_2Side
-
-
-0
-8
-4
-Used_Footprints
-TRSS_DUAL
+TRSS_DUAL_THT
 
 
 0
